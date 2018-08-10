@@ -36,7 +36,6 @@ var MainInterface = React.createClass({
 	render: function() {
     var filteredApts = this.state.data;
     filteredApts = filteredApts.map(function(item, index){
-      console.log(index);
       return(
 			 <li className="pet-item media" key={index}>
 				 <div className="pet-info media-body">
